@@ -58,6 +58,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transition: 300ms backgroun-color;
+  transition: 300ms backgroun-color;
 }
 
 .component .someTitle a img {
@@ -69,5 +71,162 @@ body {
 
 .component .someTitle a:hover {
   background-color: #2c688b;
+}
+
+.component .space {
+  width: auto;
+  height: 30px;
+}
+
+.component .equipments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 25px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 395px;
+  height: 397px;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+.component .equipments hr {
+  border: 1px solid #E5E5E5;
+  width: 395px;
+  margin-left: -25px;
+  margin-top: 15px;
+}
+
+.component .equipments .one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 18px;
+}
+
+.component .equipments .one .product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.component .equipments .one .product .wear {
+  margin: 10px;
+}
+
+.component .equipments .one .product .wear h4 {
+  font-style: 18px;
+  font-weight: 400;
+}
+
+.component .equipments .one .product .wear p {
+  font-style: 16px;
+  font-weight: 400;
+}
+
+.component .equipments .one a {
+  margin-left: 106px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #E3F6F5;
+}
+
+.component .equipments .two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 18px;
+}
+
+.component .equipments .two .product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.component .equipments .two .product .wear {
+  margin: 10px;
+}
+
+.component .equipments .two .product .wear h4 {
+  font-style: 18px;
+  font-weight: 400;
+}
+
+.component .equipments .two .product .wear p {
+  font-style: 16px;
+  font-weight: 400;
+}
+
+.component .equipments .two a {
+  margin-left: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #E3F6F5;
+}
+
+.component .equipments .tree {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 18px;
+}
+
+.component .equipments .tree .product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.component .equipments .tree .product .wear {
+  margin: 10px;
+}
+
+.component .equipments .tree .product .wear h4 {
+  font-style: 18px;
+  font-weight: 400;
+}
+
+.component .equipments .tree .product .wear p {
+  font-style: 16px;
+  font-weight: 400;
+}
+
+.component .equipments .tree a {
+  margin-left: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #E3F6F5;
 }
 /*# sourceMappingURL=main.css.map */

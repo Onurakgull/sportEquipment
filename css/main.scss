@@ -50,6 +50,7 @@ body{
             display: flex;
             text-align: center;
             justify-content: center;
+            transition: 300ms backgroun-color;
             img{
                 text-align: center;
                 justify-content: center;
@@ -58,5 +59,119 @@ body{
                 background-color: darken($color: #2C698D, $amount: .4);
             }
         }
+    }
+    .space{
+        width: auto;
+        height: 30px;
+    }
+    .equipments{
+        display: flex;
+        padding: 25px;
+        flex-direction: column;
+        width: 395px;
+        height: 397px;
+        border-radius: 15px;
+        background-color: #ffffff;
+        hr{
+            border: 1px solid #E5E5E5;
+            width: 395px;
+            margin-left: -25px;
+            margin-top: 15px;
+        }
+        .one{
+            display: flex;
+            padding: 18px;
+            .product{
+                display: flex;
+                .wear{
+                    margin: 10px;
+                    h4{
+                        font-style: 18px;
+                        font-weight: 400;
+                    } 
+                    p{
+                        font-style: 16px;
+                        font-weight: 400;
+                    }
+                }
+            }
+            a{
+                margin-left: 106px;
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                margin-top: 15px;
+                width: 44px;
+                height: 44px;
+                border-radius: 50%;
+                background-color: #E3F6F5;
+            }
+            
+            
+        }
+        .two{
+            display: flex;
+            padding: 18px;
+            .product{
+                display: flex;
+                .wear{
+                    margin: 10px;
+                    h4{
+                        font-style: 18px;
+                        font-weight: 400;
+                    } 
+                    p{
+                        font-style: 16px;
+                        font-weight: 400;
+                    }
+                }
+            }
+            a{
+                margin-left: 100px;
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                margin-top: 15px;
+                width: 44px;
+                height: 44px;
+                border-radius: 50%;
+                background-color: #E3F6F5;
+            }
+            
+            
+        }
+        .tree{
+            margin-top: 15px;
+            display: flex;
+            padding: 18px;
+            .product{
+                display: flex;
+                .wear{
+                    margin: 10px;
+                    h4{
+                        font-style: 18px;
+                        font-weight: 400;
+                    } 
+                    p{
+                        font-style: 16px;
+                        font-weight: 400;
+                    }
+                }
+            }
+            a{
+                margin-left: 100px;
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                margin-top: 15px;
+                width: 44px;
+                height: 44px;
+                border-radius: 50%;
+                background-color: #E3F6F5;
+            }
+            
+            
+        }
+
     }
 }
